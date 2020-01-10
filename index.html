@@ -1,447 +1,353 @@
-<!doctype html>
-<html lang="en" class="bg-20 font-sans antialiased">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="IE=edge">
+        <meta http-equiv="Cache-control" content="public">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="yUzjiLwdlKUk2ofWTLpqs8iehxxY8tXYxIGEffpA" />
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>CLOUDSCALR</title>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="site/images/favicon.png">
+        <!-- Bootstrap -->
+        <link href="site/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Boots Nav -->
+        <link href="site/assets/bootsnav-master/css/bootsnav.css" rel="stylesheet">
+        <!-- Themify Icons -->
+        <link href="site/assets/themify-icons/themify-icons.css" rel="stylesheet">
+        <link href="site/assets/font-awesome/css/fontawesome-all.min.css" rel="stylesheet">
+        <!-- Animate CSS -->
+        <link href="site/assets/bootsnav-master/css/animate.css" rel="stylesheet">
+        <!-- Magnific Popup -->
+        <link href="site/assets/magnific-popup/magnific-popup.css" rel="stylesheet">
+        <!-- Custom Style -->
+        <link id="main" href="site/css/style.css" rel="stylesheet">
+        <link id="theme" href="site/css/cloudscalr.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!-- ==============================================
+                     **MAIN HEADER**
+        =============================================== -->
+        <header class="header-wrapper video-bg" data-vide-bg="mp4: site/videos/videobg.mp4, webm: site/videos/videobg.webm, ogv: site/videos/videobg.ogv, poster: site/videos/videobg.jpg" data-vide-options="loop: true, muted: false, position: 0% 0%">
+          <nav class="navbar navbar-default navbar-fixed white no-background bootsnav">
+            <div class="container-fluid"> 
+              <!-- Start Atribute Navigation -->
+              <div class="attr-nav hidden-md">
+                <ul>
+                  <li class="side-menu"><a href="#"><i class="fas fa-bars fa-2x"></i></a></li>
+                </ul>
+              </div>        
+              <!-- End Atribute Navigation -->
+              <!-- Start Header Navigation -->
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                  <img src="site/images/logo-light.png" class="logo logo-display" alt="">
+                  <img src="site/images/logo-dark.png" class="logo logo-scrolled" alt="">
+                </a>
+              </div>
+              <!-- End Header Navigation -->
 
-<head>
-<!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-N7XMGBZ');</script>
-<!-- End Google Tag Manager -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Cloudscalr</title>
-
-    <!-- Fonts -->
-    <link href="css/cj-cloudscalr.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-        crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,800,800i,900,900i" rel="stylesheet">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <meta name="theme-color" content="#fcfbf8">
-</head>
-
-<body class="bg-20">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N7XMGBZ"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <div id="app">
-        <header class="h-header container mx-auto px-6 md:px-0 flex items-center border-b-2 border-primary">
-            <a href="index.html">
-                <img src="img/cloudscalr.png" alt="Cloudscalr">
-            </a>
-        </header>
-
-        <section class="container mx-auto flex flex-col md:flex-row flex-row-reverse md:flex-row md:items-center px-6 md:px-0 py-10 md:pt-5 md:hero">
-            <div class="order-2 md:order-1 pt-6 md:pt-0 md:mr-10 md:w-1/2">
-                <h1 class="text-center md:text-left text-3xl md:text-5xl text-80 font-light mb-8">Now Presenting...</h1>
-
-                <p class="text-center md:text-left text-md md:text-xl text-80 leading-normal mb-10">
-                    Cloudscalr, an aestetically designed Cloud Automation Management Plaform (CAMP). Developed by cloud strategists, architects
-                    and engineers who understand the pains and barriers to cloud infrastructure and code deployment.
-                </p>
-
-                <div class="subscribe-form">
-                    <span class="text-center md:text-left text-md md:text-lg text-80 leading-normal mb-10">Get in line now for early access.</span>
-                    <br />
-                    <br />
-                    <form id="subscribe" class="flex-col subscribe-form">
-                        <div class="flex h-12 rounded-lg shadow-lg bg-white overflow-hidden mb-3">
-                            <input type="text" value="" name="subscribe-email" id="subscribe-email" class="w-2/3 mx-3 text-80 outline-none" placeholder="Email Address">
-                            <input type="submit" class="w-1/3 focus:outline-none btn-signup bg-primary hover:bg-primary-darker block flex-no-shrink px-2 text-white uppercase tracking-wide font-bold"
-                                value="Sign Up" name="subscribe-submit">
-                        </div>
-                        <!-- SUBSCRIBE FORM MESSAGE -->
-                        <label for="subscribe-email" class="subscribe-message"></label>
-                        <!-- /SUBSCRIBE FORM MESSAGE -->
-                    </form>
-                </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#features">Features</a></li>
+                  <li><a href="#pricing">Pricing</a></li>
+                  <li><a href="https://docs.cloudscalr.com" target="_blank">Documentation</a></li>
+                  <li class="dropdown bg-danger">
+                                        <a href="login.html">Sign In</a>
+                                      </li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- End Container-->
+            <!-- Start Side Menu -->
+            <div class="side">
+              <a href="#" class="close-side"><i class="fas fa-times"></i></a>
+              <div class="widget">
+                <h6 class="title">Site Links</h6>
+                <ul class="link">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#features">Features</a></li>
+                  <li><a href="#pricing">Pricing</a></li>
+                  <li><a href="https://docs.cloudscalr.com" target="_blank">Documentation</a></li>
+                  <li><a href="login.html">Sign In</a></li>
+                  <li><a href="register.html">Sign Up</a></li>
+                </ul>
+              </div>
             </div>
+              <!-- End Side Menu -->
+          </nav>
+            <!-- End Navigation -->
 
-            <div class="order-1 md:order-2 md:w-1/2 text-center md:mb-6">
-                <img class="mt-10" src="/img/automated-cloud.png" width="90%">
+            <div class="row banner-content plr-100 pt-100 pb-0">
+                <div class="banner-meta mt-60 mb-100">
+                    <h1 class="mb-10">Cloud Automation Management Platform</h1>
+                    <p class="lead mb-70">A single solution to autonomously launch infrastructure stacks and deploy applications with an emphasis on security and best practices.</p>
+                    <p class="call-to-action">
+                        <a href="register.html" class="btn btn-white-ghost mr-20 ptb-20 plr-30">Start your FREE <span>7 day</span>  trial</a>
+                        <a href="#catch-words" class="btn btn-theme-primary ptb-20 plr-30">Learn More</a>
+                    </p>
+                </div>
+                <span class="banner-image">
+                    <img src="site/images/header-webapp.png" alt="image" class="img-responsive">
+                </span>
+
+            </div>
+        </header><!-- End Header -->
+        <!-- ==============================================
+                     **FEATURES**
+        =============================================== -->
+        <section id="catch-words" class="services ptb-90 plr-100">
+            <div class="super-title">
+                <h2>Easy Automated AWS Deployment Solutions for Applications</h2>
+                <div class="seperator"></div>
+                <p>Deploy a Complex AWS Cloud Strategy without compromising Security, Resiliency or Productivity.</p>
             </div>
         </section>
-
-        <section class="bg-80 py-10 md:pb-20">
-            <div class="container mx-auto">
-                <p class="px-6 md:px-0 mb-6 md:mb-0">
-                    <img src="img/screenshot.png" class="rounded-lg md:block md:hero-image shadow-lg md:mb-20">
-                </p>
-
-                <div class="px-6 md:px-0">
-                    <h3 class="text-center text-white font-medium text-2xl leading-normal mb-10 md:mb-15">
-                        Welcome to Cloudscalr's CAMP --- Your home for Cloud Automation!
-                        <br /> Are you ready to start your journey in the Cloud?
-                    </h3>
-                </div>
-
-                <div class="md:flex md:-mx-4 mt-10">
-                    <div class="flex flex-sm-col md:block items-start mb-10 md:mb-0 md:w-1/2 px-4">
-                        <img src="img/main-features-self-service.png" class="rounded-lg md:block mb-5">
-                        <div>
-                            <h4 class="text-lg text-center text-white mb-3">Self-Service Orchestrations</h4>
-                            <p class="text-white text-center leading-normal">Delivering a self-service model that contains best practice automation, policies and security
-                                is absolutely required to streamline the overall experience. Developers no longer have to
-                                become cloud infrastructure and service experts thus allowing them to focus on what really
-                                matters -- delivering results in the most beneficial and cost-effective way possible.</p>
-                        </div>
-                    </div>
-                    <div class="flex flex-sm-col md:block items-start mb-10 md:w-1/2 px-4">
-                        <img src="img/main-features-continuous-delivery.png" class="rounded-lg md:block mb-5">
-                        <div>
-                            <h4 class="text-lg text-center text-white mb-3">Continuous Delivery</h4>
-                            <p class="text-white text-center leading-normal">Have you ever wanted a way to simply and consistently deploy applications autonomously? Developers
-                                need the ability to push changes between environments with solid assurances and confidence.
-                                Deploy your code revisions with seamless deployment rollbacks and say "YES" to get automated
-                                using a systematic continuous delivery platform.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="bg-white py-10 md:py-20 features">
-            <div class="container mx-auto">
-                <div class="px-6 md:px-0">
-                    <div class="md:flex md:flex-wrap -mx-4">
-                        <div class="md:w-1/3 px-4 mb-10 md:mb-20">
-                            <div class="flex items-start">
-                                <i class="flex-no-shrink mr-8 text-primary fas fa-code fa-2x"></i>
-                                <div>
-                                    <h4 class="text-base text-80 mb-3">Developer Friendly</h4>
-                                    <p class="text-sm text-copy leading-column">We completely understand from a development persepctive that mastering your products
-                                        to deliver the best user experience is time consuming and costly. Having to add additional
-                                        skills and functionality to design, implement, manage and support your infrastructure
-                                        can be a hinderance and distraction to your overall business goals and bottom dollar.
-                                        Take a deep breath because Cloudscalr removes that problem from you with our fully
-                                        automated and orchestrated infrastructure solutions.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="md:w-1/3 px-4 mb-10 md:mb-20">
-                            <div class="flex items-start">
-                                <i class="flex-no-shrink mr-8 text-primary fas fa-magic fa-2x"></i>
-                                <div>
-                                    <h4 class="text-base text-80 mb-3">Automated Deployment Templates</h4>
-                                    <p class="text-sm text-copy leading-column">Best practices are integrated into everything we do -- from architecture to security
-                                        to deployment lifecycle management. Our automated deployment templates are pre-created
-                                        infrastructure designs configured to automatically build once you have specified
-                                        the required inputs. No longer do you have to worry about launching a server or two,
-                                        registering with another service, going back and running a copied script command.
-                                        You can now truly focus on what matters... your product and business!</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="md:w-1/3 px-4 mb-10 md:mb-20">
-                            <div class="flex items-start">
-                                <i class="flex-no-shrink mr-8 text-primary fas fa-ban fa-2x"></i>
-                                <div>
-                                    <h4 class="text-base text-80 mb-3">Zero Downtime Deployments</h4>
-                                    <p class="text-sm text-copy leading-column">Service availability is no joke and we take it seriously at Cloudscalr which is why we
-                                        offer a zero downtime code deployment capability. With this tool, your customers
-                                        using your application are not even aware of the fact that a new version has been
-                                        pushed and activated. For each code deployment, the system will push the code to
-                                        a designated location on the server where it will then execute regression testing
-                                        to make sure everything passes. Once testing has completed successfully, the system
-                                        will automatically route all requests to the updated application version.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="md:w-1/3 px-4 mb-10 md:mb-20">
-                            <div class="flex items-start">
-                                <i class="flex-no-shrink mr-8 text-primary fas fa-lock fa-2x"></i>
-                                <div>
-                                    <h4 class="text-base text-80 mb-3">Built with Security First</h4>
-                                    <p class="text-sm text-copy leading-column">Built-in security automation helps you deploy applications using industry best-practices.
-                                        The move to cloud computing raises new or additional security concerns, but when
-                                        applications and infrastructure are architected with attention to security, cloud
-                                        platforms can be just as secure as those on-premises. We firmly believe in the power
-                                        of infrastructure segementation in order to eliminate cross-environment risk and
-                                        greatly reduce risk of data breaches.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="md:w-1/3 px-4 mb-10 md:mb-20">
-                            <div class="flex items-start">
-                                <i class="flex-no-shrink mr-8 text-primary fas fa-cloud fa-2x"></i>
-                                <div>
-                                    <h4 class="text-base text-80 mb-3">Cloud-enabled, Cloud-driven</h4>
-                                    <p class="text-sm text-copy leading-column">When it comes to cloud computing, Amazon AWS is the crème de la crème. With 100+ services
-                                        offered, it can be quite overwhelming to jump into with both feet. Cloudscalr has
-                                        taken a vast number of these services and created fully automated solutions that
-                                        conform to industry best practices and security standards.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="md:w-1/3 px-4 mb-10 md:mb-20">
-                            <div class="flex items-start">
-                                <i class="flex-no-shrink mr-8 text-primary fab fa-php fa-2x"></i>
-                                <div>
-                                    <h4 class="text-base text-80 mb-3">Optimized PHP</h4>
-                                    <p class="text-sm text-copy leading-column">We provide optimized PHP settings so you don’t have too. With that said, you can still
-                                        configure nginx, apache2, and fpm settings as needed with the click of a button.
-                                        If you have multiple web applications that use a different version of PHP you can
-                                        painlessly manage the version you prefer to use. Cloudscalr supports the latest version
-                                        of PHP 5.6, along with versions 7.0, 7.1 and 7.2.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="md:w-1/3 px-4 mb-10 md:mb-20">
-                            <div class="flex items-start">
-                                <i class="flex-no-shrink mr-8 text-primary fas fa-universal-access fa-2x"></i>
-                                <div>
-                                    <h4 class="text-base text-80 mb-3">Universal Self-Service</h4>
-                                    <p class="text-sm text-copy leading-column">Self Service should not be limited to one type of user. Cloudscalr's policy engine and
-                                        role based access controls (RBAC) provide the ability to offer customizable access
-                                        levels for power-users, basic users, and anything in between. Cloudscalr can also
-                                        be used by a much broader audience to manage applications in the cloud without needing
-                                        extensive training. Our published blueprints only ask for the inputs the Deployment
-                                        requires, such as instance size or a custom name, for rapid and easy deployments.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="md:w-1/3 px-4 mb-10 md:mb-20">
-                            <div class="flex items-start">
-                                <i class="flex-no-shrink mr-8 text-primary fas fa-handshake fa-2x"></i>
-                                <div>
-                                    <h4 class="text-base text-80 mb-3">Cloud & Security Consulting Services</h4>
-                                    <p class="text-sm text-copy leading-column">Are you taking advantage of cloud technology benefits to grow and stay competitive in
-                                        your marketplace? Companies around the world are looking to cloud technologies and
-                                        services to reduce costs, mitigate risk, and assure scalability and resiliency. Cloudscalr
-                                        automates designs and builds for cloud-enabled solutions that help solve complex
-                                        issues companies face everyday. Our consulting services are available to help fill
-                                        gaps you might be experiencing or act as an advisor for checks and balances for assurance
-                                        reasons.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="md:w-1/3 px-4 mb-10 md:mb-20">
-                            <div class="flex items-start">
-                                <i class="flex-no-shrink mr-8 text-primary fas fa-dollar-sign fa-2x"></i>
-                                <div>
-                                    <h4 class="text-base text-80 mb-3">Transparent Cost Planning</h4>
-                                    <p class="text-sm text-copy leading-column">Many companies turn to the cloud with productivity and reduced costs in mind yet quickly discover that tendencies of overprovisioning, a lack of financial visibility and abandoned infrastructure result in inflated costs. Cost management soon becomes a crucial factor in a successful cloud strategy. Preventative and reactive controls are required to build such environments and Cloudscalr already has that built-in.</p>
-                                </div>
-                            </div>
-                        </div>
+        <section class="main-features ptb-90 plr-100">
+            <div class="row">
+            	<div class="col-md-6 pt-0 pr-100">
+		            <img class="main-features-image" src="site/images/main-features-self-service.png" alt="image">
+            	</div>
+            	<div class="col-md-6">
+                    <div class="content-holder">
+                        <h2 class="mb-20">Self-Service Orchestration</h2>
+                        <p class="features-note">Delivering a self-service model that contains best practice automation, policies and security is absolutely required to streamline the overall experience. Developers no longer have to become cloud infrastructure and service experts thus allowing them to focus on what really matters -- delivering results in the most beneficial and cost-effective way possible.</p>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <section class="bg-gradient py-10 md:pt-20 px-6 mx:px-0 testimonial">
-            <img class="testimonial-image block mx-auto relative rounded-full w-24 h-24 border-4 border-white mb-10" src="https://secure.gravatar.com/avatar/9df62faea848ab087c9f6a85e8a291c0?size=512"
-            />
-            <blockquote class="text-center text-white text-xl md:text-3xl mx-auto leading-tight md:mb-12 max-w-blockquote">
-                <p class="mb-6">&ldquo;With Cloudscalr, we help developers and companies fall in love with cloud services. Deploying applications
-                    and server infrastructures shouldn't even be a thought...
-                    <br /> ...if it's all automated.&rdquo;</p>
-                <p class="flex items-center flex-col md:flex-row justify-center text-white text-xs md:text-base uppercase font-bold tracking-wide leading-tight">
-                    <span class="mb-2 md:mb-0">William Fleming</span>
-                    <span class="hidden md:inline-block mx-6 mt-2px">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="2" height="20" viewBox="0 0 2 20">
-                            <g id="Page-1" fill="none" fill-rule="evenodd">
-                                <g id="Artboard-4" fill="#81F1FF" transform="translate(-659 -3246)">
-                                    <g id="Group-9" transform="translate(500 3245)">
-                                        <path id="Rectangle-22" d="M159 1h2v20h-2z" />
-                                    </g>
-                                </g>
-                            </g>
-                        </svg>
-                    </span>
-                    <span class="text-white-70%">CoFounder of codeJUNTO</span>
-                </p>
-            </blockquote>
-        </section>
-
-        <section class="py-10 md:py-0 md:mb-20 px-6 md:px-0 mt-10">
-            <div class="container md:flex md:justify-center mx-auto mb-10 md:mb-20">
-                <div class="shadow-lg overflow-hidden bg-20 rounded-lg w-full md:w-card mr-10 mb-10 md:mb-0">
-                    <div class="pt-8 pb-10 px-6 md:px-10">
-                        <h4 class="text-40 uppercase text-3xl tracking-wide mb-3">Solo</h4>
-
-                        <p class="align-text-top mb-6">
-                            <span class="font-light text-70 text-md">Starting at:</span>
-                            <br />
-                            <sup class="font-light text-primary text-3xl">$</sup>
-                            <span class="font-light text-primary text-price">24</span>
-                            <span class="font-light text-primary text-2xl">/ month</span>
-                            <br />
-                            <span class="font-light text-50 text-sm">25% SAVINGS
-                                <em class="font-light text-center text-50 text-sm">(billed annually)</em>
-                            </span>
-                        </p>
-
-                        <ul class="list-reset leading-normal text-80">
-                            <li class="flex items-start md:items-center py-2">
-                                <i class="flex-no-shrink fill-primary mr-4 text-primary fas fa-project-diagram fa-lg"></i>
-                                4 Active Projects
-                            </li>
-                            <li class="flex items-start md:items-center py-2">
-                                <i class="flex-no-shrink fill-primary mr-6 text-primary fas fa-user fa-lg"></i>
-                                For Solo Developers
-                            </li>
-                            <li class="flex items-start md:items-center py-2">
-                                <i class="flex-no-shrink fill-primary mr-5 text-primary fas fa-chart-line fa-lg"></i>
-                                1-Week of Metrics
-                            </li>
-                            <li class="flex items-start md:items-center py-2">
-                                <i class="flex-no-shrink fill-primary mr-5 text-primary far fa-life-ring fa-lg"></i>
-                                Basic Support
-                            </li>
-                        </ul>
+        </section><!-- End Section -->
+        <section id="automation" class="features ptb-90 plr-100">
+            <div class="row">
+            	<div class="col-md-6">
+                    <div class="content-holder">
+                        <h2 class="mb-20">Automated Cloud Standardization</h2>
+			            <p class="features-note">Look, we get it... Cloud can be a bit overwhelming and there are vast differences between the many cloud service providers in the market today.  As Amazon Cloud experts, we are paving the way to new enlightenment when it comes to Standardizing Cloud Usage. Using our pre-defined library of AWS Deployment Blueprints, developers can become fully empowered to launch an entire server architecture from a single development server to a fully-redundant, auto-scaling production environment.</p>
                     </div>
-
-                    <a href="#" class="flex items-center justify-center no-underline h-cta block bg-80 hover:bg-primary text-center text-white uppercase tracking-wide font-bold">
-                        Coming Soon
-
-                    </a>
                 </div>
-
-                <div class="shadow-lg overflow-hidden bg-20 rounded-lg w-full md:w-card mr-10 mb-10 md:mb-0">
-                    <div class="pt-8 pb-10 px-6 md:px-10">
-                        <h4 class="text-40 uppercase text-3xl tracking-wide mb-3">Team</h4>
-
-                        <p class="align-text-top mb-6">
-                            <span class="font-light text-70 text-md">Starting at:</span>
-                            <br />
-                            <sup class="font-light text-primary text-3xl">$</sup>
-                            <span class="font-light text-primary text-price">90</span>
-                            <span class="font-light text-primary text-2xl">/ month</span>
-                            <br />
-                            <span class="font-light text-50 text-sm">40% SAVINGS
-                                <em class="font-light text-center text-50 text-sm">(billed annually)</em>
-                            </span>
-                        </p>
-
-                        <ul class="list-reset leading-normal text-80">
-                            <li class="flex items-start md:items-center py-2">
-                                <i class="flex-no-shrink fill-primary mr-4 text-primary fas fa-project-diagram fa-lg"></i>
-                                10 Active Projects
-                            </li>
-                            <li class="flex items-start md:items-center py-2">
-                                <i class="flex-no-shrink fill-primary mr-4 text-primary fas fa-users fa-lg"></i>
-                                For Teams
-                            </li>
-                            <li class="flex items-start md:items-center py-2">
-                                <i class="flex-no-shrink fill-primary mr-5 text-primary fas fa-chart-line fa-lg"></i>
-                                3 Months of Metrics
-                            </li>
-                            <li class="flex items-start md:items-center py-2">
-                                <i class="flex-no-shrink fill-primary mr-5 text-primary far fa-life-ring fa-lg"></i>
-                                Priority Support
-                            </li>
-                        </ul>
+                <div class="col-md-6 pt-10 pl-100">
+		            <img src="site/images/main-features-automated-cloud.png" class="features-image" alt="image">
+            	</div>
+            </div>
+        </section><!-- End Section -->
+        <section class="main-features bg-charcoal ptb-90 plr-100">
+            <div class="row">
+            	<div class="col-md-6 pt-0 pr-90">
+		            <img src="site/images/main-features-continuous-delivery.png" class="main-features-image" alt="image">
+            	</div>
+            	<div class="col-md-6">
+                    <div class="content-holder">
+                        <h2 class="mb-20">Continuous Delivery</h2>
+                        <p class="features-note">Have you ever wanted a way to simplify and consistently delivery your application automatically? So have we... which is exactly why we use the same automation delivery system that we offer you. Developers need the ability to push changes between environments with solid assurance and confidence. Deploy code revisions with seamless deployment rollbacks and say "YES" to speeding up your development cycles while get automated through our systematic continuous delivery platform.</p>
                     </div>
-
-                    <a href="#" class="flex items-center justify-center no-underline h-cta block bg-80 hover:bg-primary text-center text-white uppercase tracking-wide font-bold">
-                        Coming Soon
-
-                    </a>
-                </div>
-
-                <div class="shadow-lg overflow-hidden bg-20 rounded-lg w-full md:w-card">
-                    <div class="pt-8 pb-10 px-10">
-                        <h4 class="text-40 uppercase text-3xl tracking-wide mb-3">Enterprise</h4>
-
-                        <p class="align-text-top mb-6">
-                            <span class="font-light text-70 text-md">Starting at:</span>
-                            <br />
-                            <sup class="font-light text-primary text-3xl">$</sup>
-                            <span class="font-light text-primary text-price">375</span>
-                            <span class="font-light text-primary text-2xl">/ month</span>
-                            <br />
-                            <span class="font-light text-50 text-sm">25% SAVINGS
-                                <em class="font-light text-center text-50 text-sm">(billed annually)</em>
-                            </span>
-                        </p>
-
-                        <ul class="list-reset leading-normal text-80">
-                            <li class="flex items-start md:items-center py-2">
-                                <i class="flex-no-shrink fill-primary mr-4 text-primary fas fa-project-diagram fa-lg"></i>
-                                25 Active Projects
-                            </li>
-                            <li class="flex items-start md:items-center py-2">
-                                <i class="flex-no-shrink fill-primary mr-6 text-primary fas fa-building fa-lg"></i>
-                                For Large Companies
-                            </li>
-                            <li class="flex items-start md:items-center py-2">
-                                <i class="flex-no-shrink fill-primary mr-5 text-primary fas fa-chart-line fa-lg"></i>
-                                6 Months of Metrics
-                            </li>
-                            <li class="flex items-start md:items-center py-2">
-                                <i class="flex-no-shrink fill-primary mr-5 text-primary far fa-life-ring fa-lg"></i>
-                                High Priority Support
-                            </li>
-                        </ul>
-                    </div>
-
-                    <a href="#" class="flex items-center justify-center no-underline h-cta block bg-80 hover:bg-primary text-center text-white uppercase tracking-wide font-bold">
-                        Coming Soon
-                    </a>
                 </div>
             </div>
-
-        </section>
-        <section class="bg-50 py-10 md:py-20">
-            <div class="container mx-auto pl-5 pr-5">
-                <div class="subscribe-form">
-                    <span class="text-center text-md md:text-2xl text-80 leading-normal">Seriously, what are you waiting for? Get signed up for early access notifications.</span>
-                    <br />
-                    <br />
-                    <form id="subscribe-footer" class="flex-row subscribe-form">
-                        <div class="flex h-12 rounded-lg shadow-lg bg-white overflow-hidden mb-3">
-                            <input type="text" value="" name="subscribe-email" id="subscribe-email" class="w-2/3 mx-3 text-80 outline-none" placeholder="Email Address">
-                            <input type="submit" class="w-1/3 focus:outline-none bg-primary hover:bg-primary-darker block flex-no-shrink px-2 text-white uppercase tracking-wide font-bold"
-                                value="Sign Up" name="subscribe-submit">
-                        </div>
-                        <!-- SUBSCRIBE FORM MESSAGE -->
-                        <label for="subscribe-email" class="subscribe-message"></label>
-                        <!-- /SUBSCRIBE FORM MESSAGE -->
-                    </form>
+        </section><!-- End Section -->
+        <section id="features" class="services bg-gray ptb-90 plr-100">
+            <div class="super-title">
+                <h2>Features Beyond Your Expectation</h2>
+                <div class="seperator"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 ptb-30 plr-40">
+                    <div class="service-items">
+                        
+                        <h4><span class="service-icon mr-20"><i class="fa fa-lock"></i></span> Built with Security First</h4>
+                        <p>Built-in security automation helps you deploy applications using industry best-practices. The move to cloud computing raises new or additional security concerns, but when applications and infrastructure are architected with attention to security, cloud platforms can be just as secure as those on-premises. We firmly believe in the power of infrastructure segementation in order to eliminate cross-environment risk and greatly reduce risk of data breaches.</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6  ptb-30 plr-40">
+                    <div class="service-items">
+                        <h4><span class="service-icon mr-20"><i class="fa fa-code"></i></span>Developer Friendly</h4>
+                        <p>We completely understand from a development persepctive that mastering your products to deliver the best user experience is time consuming and costly. Having to add additional skills and functionality to design, implement, manage and support your infrastructure can be a hinderance and distraction to your overall business goals and bottom dollar. Take a deep breath because Cloudscalr removes that problem from you with our fully automated and orchestrated infrastructure solutions.</p>
+                    </div>
                 </div>
             </div>
-        </section>
+            <div class="row">
+            	<div class="col-sm-12 col-md-6 ptb-30 plr-40">
+                    <div class="service-items">
+                        <h4><span class="service-icon mr-20"><i class="fa fa-magic"></i></span> Automated Deployments</h4>
+                        <p>Best practices are integrated into everything we do -- from architecture to security to deployment lifecycle management. Our automated deployment templates are pre-created infrastructure designs configured to automatically build once you have specified the required inputs. No longer do you have to worry about launching a server or two, registering with another service, going back and running a copied script command. You can now truly focus on what matters... your product and business!</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 ptb-30 plr-40">
+                    <div class="service-items">
+                        <h4><span class="service-icon mr-20"><i class="fa fa-cloud"></i></span> Cloud-Enabled, Cloud-Driven</h4>
+                        <p>When it comes to cloud computing, Amazon AWS is the crème de la crème. With 100+ services offered, it can be quite overwhelming to jump into with both feet. Cloudscalr has taken a vast number of these services and created fully automated solutions that conform to industry best practices and security standards.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 ptb-30 plr-40">
+                    <div class="service-items">
+                        <h4><span class="service-icon mr-20"><i class="fab fa-php"></i></span> Optimized PHP</h4>
+                        <p>We provide optimized PHP settings so you don’t have too. With that said, you can still configure nginx, apache2, and fpm settings as needed with the click of a button. If you have multiple web applications that use a different version of PHP you can painlessly manage the version you prefer to use. Cloudscalr supports the latest version of PHP 5.6, along with versions 7.0, 7.1 and 7.2.</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 ptb-30 plr-40">
+                    <div class="service-items">
+                        <h4><span class="service-icon mr-20"><i class="fas fa-hand-holding-usd"></i></span> Transparent Cost Planning</h4>
+                        <p>Many companies turn to the cloud with productivity anduced costs in mind yet quickly discover that tendencies of overprovisioning, a lack of financial visibility and abandoned infrastructure result in inflated costs. Cost management becomes a crucial factor in a successful cloud strategy. Preventative and reactive controls are required to build environments and Cloudscalr already has that built-in.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 ptb-30 plr-40">
+                    <div class="service-items">
+                        <h4><span class="service-icon mr-20"><i class="fas fa-ban"></i></span> Zero Downtime Deployments</h4>
+                        <p>Service availability is no joke and we take it seriously at Cloudscalr which is why we offer a zero downtime code deployment capability. With this tool, your customers using your application are not even aware of the fact that a new version has been pushed and activated. For each code deployment, the system will push the code to a designated location on the server where it will then execute regression testing to make sure everything passes. Once testing has completed successfully, the system will automatically route all requests to the updated application version.</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 ptb-30 plr-40">
+                    <div class="service-items">
+                        <h4><span class="service-icon mr-20"><i class="fas fa-universal-access"></i></span> Universal Self-Service</h4>
+                        <p>Self Service should not be limited to one type of user. Cloudscalr's policy engine and role based access controls (RBAC) provide the ability to offer customizable access levels for power-users, basic users, and anything in between. Cloudscalr can also be used by a much broader audience to manage applications in the cloud without needing extensive training. Our published blueprints only ask for the inputs the Deployment requires, such as instance size or a custom name, for rapid and easy deployments.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            	<div class="col-sm-12 ptb-30 plr-40">
+                    <div class="service-items">
+                        <h4><span class="service-icon mr-20"><i class="fa fa-hands-helping"></i></span> Consulting Services</h4>
+                        <p>Are you taking advantage of cloud technology benefits to grow and stay competitive in your marketplace? Companies around the world are looking to cloud technologies and services to reduce costs, mitigate risk, and assure scalability and resiliency. Cloudscalr automates designs and builds for cloud-enabled solutions that help solve complex issues companies face everyday. Our consulting services are available to help fill gaps you might be experiencing or act as an advisor for checks and balances for assurance reasons.</p>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Section -->
         
-        <footer class="mx-auto bg-80 py-10">
-            <p class="text-center text-white">Copyright © Cloudscalr
-                <em class="text-xs">(a product of codeJUNTO Inc)</em>
-            </p>
-        </footer>
-    </div>
+        <!-- ==============================================
+                             **PRICING TABLE**
+        =============================================== -->
+        <section id="pricing" class="pricing-table pt-0 pb-90 text-center" v-cloak>
+        	<div class="pricing-table-header bg-danger pt-40 pb-60 plr-100 mb-50">
+                <h2 class="text-white mb-10">Get More Value out of Every Project</h2>
+                <h3 class="sub-title mb-30">All plans free for 7 days. Get started in less than a minute.</h3>
+                <div class="period-switcher-wrapper bg-white">
+                    <button type="button" class="period-switcher" id="period-annual" v-bind:class="{ period_switcher_active: period_annual }" @click="period_annual = true; period_monthly = false">Annual</button>
+                    <button type="button" class="period-switcher" v-bind:class="{ period_switcher_active: period_monthly }" @click="period_annual = false; period_monthly = true" id="period-monthly">Monthly</button>
+                </div>
+            </div>
+            <div class="mb-60">
+                <strong>Save up to 40%</strong> with annual billing
+            </div>
+            <div class="plr-100 mb-50">
+                <div class="plans">
+                    <div v-for="plan in plans" :key="plan.id" class="plan" :class="{ plan_favorite: plan.isFavorite }">
+                        <div class="plan-title">{{ plan.name }}</div>
+                        <div class="plan-body">
+                            <div class="mb-10">Starting at:</div>
+                            <div class="price-text">
+                                <span class="price" v-if="period_monthly">${{ plan.priceList.monthly[plan.defaultActiveProjects] }}</span>
+                                <span class="price" v-else="period_annual">${{ plan.priceList.annual[plan.defaultActiveProjects] }}</span>
+                                /mo</div>
+                            <div class="text-muted">{{ plan.savings }}% Savings <em>(billed annually)</em></div>
+                            <div class="rangeslider">
+                                <output>{{ plan.defaultActiveProjects }}</output>
+                                <div class="">Select # Active Projects</div>
+                                <input class="range-input" type="range" v-bind:max="plan.maxActiveProjects" v-bind:min="plan.minActiveProjects" v-bind:step="plan.rangeInputStep" v-model.number="plan.defaultActiveProjects" v-on:change="changePrice(plan)">
+                            </div>
+                            <div class="plan-features mt-20">
+                                <h4 class="plan-features-title mb-10">Features</h4>
+                                <ul class="plan-features-list">
+                                    <li v-for="feature in plan.features" :class="{ plan_feature_unavailable: !feature.available }">{{ feature.name }}</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="register.html" class="bg-danger text-white ptb-10 plr-40 signup-link">Start Your FREE Trial Now</a>
+            <div class="mt-40 plans-extra-info">
+                <h5 class="mb-10">What is an Active Project?</h5>
+                <p class="w-50 m-auto">An active project is an infrastructure and application stack that has been fully configured and running in the Amazon AWS Cloud in an "Operational" state.</p>
+            </div>
+        </section><!-- End Section -->
 
-    <!-- jQuery -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <!-- Ajax Mailchimp -->
-    <script src="/js/jquery.ajaxchimp.js"></script>
-    <!-- Cloudscalr Scripts -->
-    <script src="js/cloudscalr.js"></script>
-
-    <!-- Pendo  -->
-    <script>
-        (function(apiKey){
-          (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=[];
-            v=['initialize','identify','updateOptions','pageLoad'];for(w=0,x=v.length;w<x;++w)(function(m){
-            o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);
-            y=e.createElement(n);y.async=!0;y.src='https://cdn.pendo.io/agent/static/'+apiKey+'/pendo.js';
-            z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
-      
-          pendo.initialize({
-            visitor: {
-              id:              'pre-reg-landing' 
-            },
-          });
-        })('35bbb7c8-91d7-4712-75bd-62703d15479d');
-      </script>
-              
-</body>
-
+        <!-- ==============================================
+                     **FOOTER STARTS**
+        =============================================== -->        
+        <footer id="footer" class="dark-footer">
+            <div class="main-footer ptb-90 plr-100">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12 pr-40">
+                        <h3>Quick Fact</h3>
+                        <p>Cloudscalr software, infrastructure, and security processes has been designed from the ground up with a multi-layered, defense-in-depth approach to provide customers with peace of mind.</p>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12">
+                      <h3>Navigation</h3>
+                      <ul class="footer-navigation-widget">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 pl-40">
+                      <h3>Resources</h3>
+                      <ul class="footer-navigation-widget">
+                        <li><a href="https://docs.cloudscalr.com" target="_blank">Documentation</a></li>
+                        <!-- <li><a href="#">Support</a></li> -->
+                        <li><a href="https://docs.cloudscalr.com/#/legal/privacy-policy" target="_blank">Privacy Policy</a></li>
+                        <li><a href="https://docs.cloudscalr.com/#/legal/terms-of-use" target="_blank">Terms of Use</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <h3>Contact</h3>
+                        <div class="contact-widget">
+                            <div class="contact-item clearfix">
+                                <span class="ti-location-pin"></span>
+                                <p><strong>Headquarters:</strong><br>Lehi, Utah</p>
+                            </div>
+                            <div class="contact-item clearfix">
+                                <span class="ti-mobile"></span>
+                                <p>(801) 845-2083</p>
+                            </div>
+                            <div class="contact-item clearfix">
+                                <span class="ti-email"></span>
+                                <p>
+                                    <a href="javascript:location='mailto:\u0073\u0075\u0070\u0070\u006f\u0072\u0074\u0040\u0063\u006c\u006f\u0075\u0064\u0073\u0063\u0061\u006c\u0072\u002e\u0063\u006f\u006d';void 0"><script type="text/javascript">document.write('\u0073\u0075\u0070\u0070\u006f\u0072\u0074\u0040\u0063\u006c\u006f\u0075\u0064\u0073\u0063\u0061\u006c\u0072\u002e\u0063\u006f\u006d')</script></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- End Main Footer -->
+            <div class="footer-bottom ptb-20 plr-100 paraxify">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12 copyright">
+                        &COPY; 2018 Cloudscalr, a product by <a href="https://www.codejunto.com" target="_new">codeJUNTO, Inc.</a> All Rights are Reserved.
+                    </div>
+                    <div class="col-sm-6 col-xs-12 footer-logo text-center">
+                        <img src="site/images/logo-light.png" class="footer-logo" alt="Cloudscalr">
+                    </div>
+                </div>
+                <div class="back-to-top">
+                    <a href="#top" id="back-top"><span class="fa fa-arrow-up fa-lg"></span></a>
+                </div>
+            </div><!-- End Bottom Footer -->
+        </footer><!-- End Footer -->
+        <!-- jQuery -->
+        <script src="site/js/jquery.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="site/js/bootstrap.min.js"></script>
+        <!-- Modenizer JS -->
+        <script src="site/js/modernizr-custom.js"></script>
+        <!-- Bootsvav Menu -->
+        <script src="site/assets/bootsnav-master/js/bootsnav.js" type="text/javascript"></script>
+        <!-- Parallax -->
+        <script src="site/assets/paraxify/paraxify.min.js" type="text/javascript"></script>
+        <!-- Magnific Popup -->
+        <script src="site/assets/magnific-popup/jquery.magnific-popup.min.js" type="text/javascript"></script>
+        <!-- Video Background -->
+        <script src="site/assets/vide/jquery.vide.js" type="text/javascript"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+        <!-- Custom JS -->
+        <script src="site/js/custom.js"></script>
+    </body>
 </html>
